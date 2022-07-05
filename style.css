@@ -1,61 +1,98 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
+    text-align: center;
 }
 body{
-    background-color: aquamarine;
+    background-color: rgb(174, 245, 245);
     font-size: 15px;
 }
 nav ul{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center ;
     list-style: none;
-     align-content:center ;
-     padding: 10px,20px;
+    right: 5px;
+    padding: 10px 20px;
 }
 li{
     padding-right: 20px;
-}
-link{
     text-decoration: none;
 }
+.links{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
 #name{
-    color: blue;
-    font-size: larger;
-
+    
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    padding-right:200px;
 }
-#home{
-    display: flex;
-    background-color: aliceblue;
-    height: 70px;
-    transform: translate(-50,-250);
-    padding-top: 40px;
-    text-align: center;
-    font-size: larger;
-}
-.project{
-    background-color: beige;
-    color: black;
+.HEADER{
+    font-size: 50px;
+    background-color: rgb(238, 184, 233);
+    color: rgb(0, 0, 0);
     height: 100px;
-    width: 200px;
+    padding-top: 55px;
+    margin-bottom: 10px;
+}
+#profilepic{
+    margin: 10px 10px 10px 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    transform: translate(-120%,20%);
+}
+#article1{
+    transform: translate(0px,-300px);
+    font-size: 25px;
+    display: flex;
+    padding-left: 400px;
+    padding-top: 100px;
+}
+#About{
+    background-color: rgb(194, 188, 190);
+    height: 600px;
+    margin-bottom: 10px;
+}
+#Work{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px 0;
+    width: 100%;
 }
-
-
-
-
-
-
+.box{
+    width: 100%;
+    background-color: rgb(117, 226, 226);
+    justify-content: space-around;
+    margin: 10px 0;
+}
+li{
     
-
-
-
-
-
-
-
+    width: 100%;
+    padding: 3px;
+}
+#Skills{
+    font-size: 30px;
+    height: 600px;
+    background-color: rgb(226, 146, 146);
+    margin-bottom: 10px;
+}
+#skillscontainer{
+    padding-top: 0px;
+    height: 600px;
+}
+#Contact{
+   font-size: 50px;
+   background-color: rgb(227, 228, 157);
+   height: 600px;
+}
+form{
+    font-size: 30px;
+    padding-top: 100px;
+}
